@@ -1,0 +1,189 @@
+-- Checking missing 
+
+-- missing 2
+-- check cluster KOTA PADANG PANJANG
+select * from store s 
+where (store_city = 'KOTA PADANG PANJANG' and store_province = 'BUKIT TINGGI' and store_region like '__.%SUMBAGTENG' and store_branch = 'PADANG');
+
+-- update cluster BUKIT TINGGI
+update store 
+set store_cluster = 'BUKIT TINGGI'
+where (store_city = 'KOTA PADANG PANJANG' and store_province = 'BUKIT TINGGI' and store_region like '__.%SUMBAGTENG' and store_branch = 'PADANG');
+
+-- missing 3
+-- check cluster MUARO JAMBI
+select * from store s 
+where (store_city = 'MUARO JAMBI' and store_province = 'JAMBI INNER' and store_region like '__.%SUMBAGSEL' and store_branch = 'JAMBI');
+
+-- update cluster MUARO JAMBI
+update store 
+set store_cluster = 'JAMBI INNER'
+where (store_city = 'MUARO JAMBI' and store_province = 'JAMBI INNER' and store_region like '__.%SUMBAGSEL' and store_branch = 'JAMBI');
+
+-- check cluster PIDIE
+select * from store s 
+where (store_city = 'PIDIE' and store_province = 'ACEH' and store_region like '__.%SUMBAGUT' and store_branch = 'BANDA ACEH');
+
+-- update cluster PIDIE
+update store 
+set store_cluster = 'ACEH'
+where (store_city = 'PIDIE' and store_province = 'ACEH' and store_region like '__.%SUMBAGUT' and store_branch = 'BANDA ACEH');
+
+-- check cluster city TABANAN
+select * from store s 
+where (store_city = 'TABANAN' and store_province = 'BALI BARAT' and store_region like '__.%BALI NUSRA' and store_branch = 'DENPASAR');
+
+-- update cluster city TABANAN
+update store 
+set store_cluster = 'BALI BARAT'
+where (store_city = 'TABANAN' and store_province = 'BALI BARAT' and store_region like '__.%BALI NUSRA' and store_branch = 'DENPASAR');
+
+-- check cluster city hulu sungai selatan
+select * from store s 
+where (store_city = 'HULU SUNGAI SELATAN' and store_province = 'HULU SUNGAI' and store_region like '__.%KALIMANTAN' and store_branch = 'BANJARMASIN');
+
+-- update cluster city hulu sungai selatan
+update store 
+set store_cluster = 'HULU SUNGAI'
+where (store_city = 'HULU SUNGAI SELATAN' and store_province = 'HULU SUNGAI' and store_region like '__.%KALIMANTAN' and store_branch = 'BANJARMASIN');
+
+-- check cluster city KOTA SAMARINDA
+select * from store s 
+where (store_city = 'KOTA SAMARINDA' and store_province = 'MAHAKAM' and store_region like '__.%KALIMANTAN' and store_branch = 'SAMARINDA');
+
+-- update cluster city kota samarinda
+update store 
+set store_cluster = 'MAHAKAM'
+where (store_city = 'KOTA SAMARINDA' and store_province = 'MAHAKAM' and store_region like '__.%KALIMANTAN' and store_branch = 'SAMARINDA');
+
+-- check cluster TAKALAR
+select * from store s 
+where (store_city = 'TAKALAR' and store_province = 'GOWA' and store_region like '__.%SULAWESI' and store_branch = 'MAKASSAR');
+
+-- update cluster TAKALAR
+update store 
+set store_cluster = 'GOWA'
+where (store_city = 'TAKALAR' and store_province = 'GOWA' and store_region like '__.%SULAWESI' and store_branch = 'MAKASSAR');
+
+-- check cluster TANAH LAUT
+select * from store s 
+where (store_city = 'TANAH LAUT' and store_province = 'BATULICIN' and store_region like '__.%KALIMANTAN' and store_branch = 'BANJARMASIN');
+
+-- update cluster TANAH LAUT
+update store 
+set store_cluster = 'BATU LICIN'
+where (store_city = 'TANAH LAUT' and store_province = 'BATULICIN' and store_region like '__.%KALIMANTAN' and store_branch = 'BANJARMASIN');
+
+
+-- check cluster city maybrat
+select * from store s 
+where (store_city = 'MAYBRAT' and store_province = 'MANOKWARI NABIRE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'SORONG');
+
+-- check cluster mappi
+select * from store s 
+where (store_city = 'MAPPI' and store_province = 'MERAUKE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'TIMIKA');
+
+-- check cluster yahukimo
+select * from store s 
+where (store_city = 'YAHUKIMO' and store_province = 'MERAUKE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'TIMIKA');
+
+-- check cluster PEGUNUNGAN BINTANG
+select * from store s 
+where (store_city = 'PEGUNUNGAN BINTANG' and store_province = 'MERAUKE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'TIMIKA');
+
+-- check cluster city WAROPEN
+select * from store s 
+where (store_city = 'WAROPEN' and store_province = 'MANOKWARI NABIRE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'SORONG');
+
+
+-- check cluster city TAMBRAUW
+select * from store s 
+where (store_city = 'TAMBRAUW' and store_province = 'MANOKWARI NABIRE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'SORONG');
+
+-- check cluster BOVEN DIGOEL
+select * from store s 
+where (store_city = 'BOVEN DIGOEL' and store_province = 'MERAUKE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'TIMIKA');
+
+-- check cluster PUNCAK
+select * from store s 
+where (store_city = 'PUNCAK' and store_province = 'MERAUKE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'TIMIKA');
+
+-- check cluster DOGIYAI
+select * from store s 
+where (store_city = 'DOGIYAI' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster INTAN JAYA
+select * from store s 
+where (store_city = 'INTAN JAYA' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster city PEGUNUNGAN ARFAK
+select * from store s 
+where (store_city = 'PEGUNUNGAN ARFAK' and store_province = 'MANOKWARI NABIRE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'SORONG');
+
+-- check cluster LANNY JAYA
+select * from store s 
+where (store_city = 'LANNY JAYA' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster MAMBERAMO TENGAH
+select * from store s 
+where (store_city = 'MAMBERAMO TENGAH' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster YALIMO
+select * from store s 
+where (store_city = 'YALIMO' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster PUNCAK JAYA
+select * from store s 
+where (store_city = 'PUNCAK JAYA' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster DEIYAI
+select * from store s 
+where (store_city = 'DEIYAI' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster SUPIORI
+select * from store s 
+where (store_city = 'SUPIORI' and store_province = 'SENTANI' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster MAMBERAMO RAYA
+select * from store s 
+where (store_city = 'MAMBERAMO RAYA' and store_province = 'MAMBERAMO RAYA' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'JAYAPURA');
+
+-- check cluster NDUGA
+select * from store s 
+where (store_city = 'NDUGA' and store_province = 'MERAUKE' and store_region like '__.%MALUKU DAN PAPUA' and store_branch = 'TIMIKA');
+
+-- check cluster SIMALUNGUN
+select * from store s 
+where (store_city = 'SIMALUNGUN' and store_province = 'ASAHAN' and store_region like '__.%SUMBAGUT' and store_branch = 'PEMATANG SIANTAR');
+
+-- check cluster KEPULAUAN MENTAWAI
+select * from store s 
+where (store_city = 'KEPULAUAN MENTAWAI' and store_province = 'PADANG PARIAMAN' and store_region like '__.%SUMBAGTENG' and store_branch = 'PADANG');
+
+-- check cluster JAKARTA PUSAT	
+select * from store s 
+where (store_city = 'JAKARTA PUSAT' and store_province = 'JAKPUSEL' and store_region like '__.%CENTRAL JABOTABEK' and store_branch = 'JAKARTA RAYA');
+
+-- check cluster city KONAWE KEPULAUAN
+select * from store s 
+where (store_city = 'KONAWE KEPULAUAN' and store_province = 'KENDARI' and store_region like '__.%SULAWESI' and store_branch = 'KENDARI');
+
+-- check cluster city KEPULAUAN TALAUD
+select * from store s 
+where (store_city = 'KEPULAUAN TALAUD' and store_province = 'MINAHASA TALAUD' and store_region like '__.%SULAWESI' and store_branch = 'MANADO');
+
+-- check cluster city BUTON SELATAN
+select * from store s 
+where (store_city = 'BUTON SELATAN' and store_province = 'WAKATOBI' and store_region like '__.%SULAWESI' and store_branch = 'KENDARI');
+
+-- check cluster SIMALUNGUN
+select * from store s 
+where (store_city = 'SIMALUNGUN' and store_province = 'KARO' and store_region like '__.%SUMBAGUT' and store_branch = 'PEMATANG SIANTAR');
+
+-- check cluster ROKAN HILIR
+select * from store s 
+where (store_city = 'ROKAN HILIR' and store_province = 'ASAHAN' and store_region like '__.%SUMBAGUT' and store_branch = 'PEMATANG SIANT	AR');
+
+-- check cluster KEPULAUAN SERIBU
+select * from store s 
+where (store_city = 'KEPULAUAN SERIBU' and store_province = 'NEW JAKUT' and store_region like '__.%CENTRAL JABOTABEK' and store_branch = 'JAKARTA RAYA');
