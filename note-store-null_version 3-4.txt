@@ -1,0 +1,9 @@
+store_v3: 199187
+store_v4: 191783
+
+setelah dimasukkin semua
+store_v3: 199187
+store_v4: 210759
+
+hitung store_v4 sebelum dan sesudah distinct;
+sebelum distinct: 210759;
