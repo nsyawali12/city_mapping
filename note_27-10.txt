@@ -1,0 +1,6 @@
+-> jumlah store master_v5 sblm di filtered = 211655
+
+-> coba keluarin dlu semua yang storeidnya = 1
+-> coba hapus yang fieldnya kosong lebih dari 3 atau yang di perluin nya brp
+
+-> store area 4 semua setelah delete duplicate dengan memilih id yang paling lama : 45372
