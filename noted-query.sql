@@ -52,12 +52,12 @@ where storeid='1201019754';
 -- where store_province is null;
 
 -- pengecekan storeid dengan partitioned package item filtered
--- select store_id, count(*) from `telkomsel-retail-intelligence.telkomsel_retail_intelligence.app_packageitem_partitioned`
--- left join `telkomsel-retail-intelligence.telkomsel_retail_intelligence.store_master_v5`
--- on store_id = storeid
--- where uploaded_by_email != "hudabeybi@gmail.com" and storeid is null
--- group by 1
--- order by 1;
+select store_id, count(*) from `telkomsel-retail-intelligence.telkomsel_retail_intelligence.app_packageitem_partitioned`
+left join `telkomsel-retail-intelligence.telkomsel_retail_intelligence.store_master_v5`
+on store_id = storeid
+where uploaded_by_email != "hudabeybi@gmail.com" and storeid is null
+group by 1
+order by 1;
 
 select storeid from `telkomsel-retail-intelligence.telkomsel_retail_intelligence.store_master_v5`
 where store_area = 'AREA 1'
